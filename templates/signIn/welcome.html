@@ -1,0 +1,23 @@
+{% extends 'base.html'%}
+{% load static %}
+
+
+{% block styles%}
+<link rel="stylesheet" href="{% static 'css/style2.css' %}">
+{% endblock styles %}
+{% block content%}
+
+
+<section class="SignInPage">
+  <div class="box">
+
+         <div class="con">
+         <div class="head-form">
+            <h2>Welcome {{user.username}}</h2>
+            
+         </div>
+         <br>
+</div>
+  </div>
+</section>  
+{% endblock content%}
